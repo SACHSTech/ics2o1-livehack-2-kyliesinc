@@ -27,7 +27,6 @@ The message will display information to a driver based on their speed according 
 | 21 to 30  | $270  |
 | 31 or above  | $570  |
 
-In addition to the fines above, if the driver is speeding in a construction zone, the fines will be doubled.
 
 #### Input Specification
 The user will be prompted for 2 integers:
@@ -37,7 +36,7 @@ The user will be prompted for 2 integers:
 
 #### Output specification
 If the driver is not speeding, the output should be: `Congratulations, you are within the speed limit!`  
-If the driver is speeding, the output should be: `You are speeding and your fine is $F`. where F is the amount of the fine as described in the table above,
+If the driver is speeding, the output should be: `You are speeding and your fine is $F`. where F is the amount of the fine as described in the table above,100
 
 
 #### Sample Run 1  
@@ -81,7 +80,6 @@ Welcome to the Triangle Checker
 Enter the length of the first side: 12
 Enter the length of the second side: 3
 Enter the length of the third side: 8
-The figure is NOT a triangle
 ```
 
 
